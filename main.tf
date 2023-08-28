@@ -4,10 +4,6 @@ terraform {
 
     workspaces {
       name = "learn-terraform-circleci"
-credentials = "app.terraform.io" {
-  token = "ws-PLnErJYqHEHm2KR7"
-}
-
     }
   }
 }
