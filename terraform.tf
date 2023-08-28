@@ -3,7 +3,7 @@ terraform {
     organization = "ug-hcp"
 
     workspaces {
-      name = "default"
+      name = "learn-terraform-circleci"
     }
   }
 }
