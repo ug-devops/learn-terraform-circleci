@@ -2,7 +2,7 @@ terraform {
 cloud {
 	organization = "ug-hcp"
 
-	workspaces {
+	workspace {
 		name = "learn-terraform-circleci"
 		}
 	}
