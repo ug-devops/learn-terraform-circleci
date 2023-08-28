@@ -3,7 +3,7 @@ terraform {
     organization = "ug-hcp"
 
     workspaces {
-      name = "learn-terraform-circleci"
+      tags = ["learn-terraform-circleci"]
     }
   }
 }
