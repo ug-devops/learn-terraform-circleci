@@ -1,7 +1,6 @@
 terraform {
 cloud {
 	organization = "ug-hcp"
-	workspace = "learn-terraform-circleci"
 }
 
   required_providers {
