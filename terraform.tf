@@ -2,11 +2,9 @@ terraform {
 cloud {
 	organization = "ug-hcp"
 
-	workspace {
+	workspaces {
 		name = "learn-terraform-circleci"
 		}
-	}
-}
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -15,5 +13,5 @@ cloud {
   }
 
   required_version = ">= 1.5.5"
+	}
 }
-
